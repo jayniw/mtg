@@ -1,0 +1,23 @@
+{% extends '::base.html.twig' %}
+
+{% block stylesheets %}
+  {% styleshhets output='css/main.css' filter='cssrewrite,yiu_css' debug=false 
+      'bundles/themebootstrap/css/bootstrap.css'
+      'bundles/themebootstrap/css/bootstrap-responsive.css'
+       -%}
+    <link rel="stylesheet" href="{{ asset_url }}" type="text/css">
+  {% endstylesheets %}
+{% endblock %}
+
+{% block body -%}
+
+{% endblock %}
+
+{% block javascripts %}
+  {% javascripts output='js/main.js' filter='yui_js' debug=false 
+      'bundles/themebootstrap/js/jquery.js'
+      'bundles/themebootstrap/js/bootstrap.js'
+      -%}
+    <script src="{{ asset_url }}"></script>
+  {% endjavascripts %}
+{% endblock %}
