@@ -1,0 +1,5 @@
+themes_bootstrap:
+    resource: "@ThemesBootstrapBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
