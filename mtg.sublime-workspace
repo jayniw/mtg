@@ -1,0 +1,660 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"indi",
+				"indicador"
+			],
+			[
+				"can",
+				"cantInd"
+			],
+			[
+				"created",
+				"created_at"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"por",
+				"porcentaje"
+			],
+			[
+				"array",
+				"array	$… = array (…)"
+			],
+			[
+				"in",
+				"indicadores"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"p",
+				"pmaker"
+			],
+			[
+				"cod",
+				"cod_tipo"
+			],
+			[
+				"cod_",
+				"cod_tipo_sim"
+			],
+			[
+				"cod_t",
+				"cod_tipo"
+			],
+			[
+				"cod_tipo",
+				"cod_tipo_sim"
+			],
+			[
+				"sc",
+				"src"
+			],
+			[
+				"na",
+				"name=  (attribute)"
+			],
+			[
+				"a",
+				"align	@align"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"r",
+				"right:   (property)"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"tarea",
+				"tareaDet"
+			],
+			[
+				"ge",
+				"getPm  (function)"
+			],
+			[
+				"get",
+				"getPmaker  (function)"
+			],
+			[
+				"arra",
+				"array	$… = array (…)"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"l",
+				":link"
+			],
+			[
+				"i",
+				"id	@id"
+			],
+			[
+				"prio",
+				"prioridad"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"else",
+				"else  (keyword)"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"al",
+				"align=  (attribute)"
+			],
+			[
+				"_SE",
+				"_SESSION  (variable)"
+			],
+			[
+				"usr",
+				"usr"
+			],
+			[
+				"h",
+				"href	@href"
+			],
+			[
+				"th",
+				"th  (element)"
+			],
+			[
+				"include",
+				"include_dir"
+			],
+			[
+				"inclu",
+				"include_dir"
+			],
+			[
+				"Menu",
+				"menu"
+			],
+			[
+				"ce",
+				"central  (value)"
+			],
+			[
+				"alig",
+				"alignment-adjust:   (property)"
+			],
+			[
+				"It",
+				"ItcPortalBundle:Menu [Entity]"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"ro",
+				"rowSms"
+			],
+			[
+				"entre",
+				"entrega"
+			],
+			[
+				"stro",
+				"strtotime"
+			],
+			[
+				"fech",
+				"fecha_rec"
+			],
+			[
+				"sql",
+				"sqlFecha"
+			],
+			[
+				"fr",
+				"frame	Tag"
+			],
+			[
+				"fra",
+				"frameset	Tag"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"m",
+				"msjErr"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"db",
+				"dbm"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"co",
+				"conexion"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 210.0,
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"control",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"con",
+				"Package Control: Install Package"
+			],
+			[
+				"contr",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"s",
+				"Set Syntax: INI"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"dicove",
+				"Package Control: Discover Packages"
+			],
+			[
+				"syntax: I",
+				"Set Syntax: INI"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Long Tag"
+			],
+			[
+				"git",
+				"Package Control: List Packages"
+			],
+			[
+				"linter",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 626.0
+	},
+	"console":
+	{
+		"height": 229.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/apps/mtg/.gitignore",
+		"//10.40.3.215/app/op/apps/reps/prv.php",
+		"/C/wamp/bin/php/php5.4.3/php.ini",
+		"//10.40.3.215/app/liga/model/db.class.php",
+		"/D/mws/Master - copia.mwBase",
+		"//10.40.3.214/www/transacciones/cambio_nombre/index.php",
+		"//10.40.3.215/app/op/lib/fx.fechas.php",
+		"//10.40.3.215/app/op/apps/turnos/horariosView.php",
+		"//10.40.3.215/app/op/apps/hpsc/cierreTicketFiltro.php",
+		"//10.40.3.215/app/op/apps/hpsc/cierreTicketResultado.php",
+		"//10.40.3.215/app/op/apps/reps/repTicketsInfra.php",
+		"//10.40.3.215/app/op/lib/fx.templates.php",
+		"//10.40.3.29/Portal/coldprod/soporte/teasing/teasing.cfc",
+		"//10.40.3.29/Portal/coldprod/mensajes_sms/controlteasing.cfm",
+		"//10.40.3.29/Portal/coldprod/mensajes_sms/mensajes.cfc",
+		"//10.40.3.29/Portal/coldprod/mensajes_sms/controlteasing_add.cfm",
+		"//10.40.3.29/Portal/coldprod/process/alertas.cfm",
+		"//10.40.3.29/Portal/coldprod/notificacion/cci_envio_mensajes.cfm",
+		"//10.40.3.29/Portal/coldprod/soporte/teasing/index.cfm",
+		"//10.40.3.29/Portal/coldprod/notificacion/cci_envio_sms.cfm",
+		"//10.40.3.214/www/transacciones/ticket_subsidio/index.php",
+		"//10.40.3.215/app/op/apps/turnos/evaluacion.php",
+		"//10.40.3.215/app/op/apps/reps/horarioEntrada.php",
+		"//10.40.3.215/app/op/apps/hpsc/cierreTicketCierre.php",
+		"//10.40.3.214/app/op/apps/hpsc/cierreTicketCierre.php",
+		"//10.40.3.215/app/op/apps/bitacora/bitacoraNew.php",
+		"//10.40.3.215/app/op/model/bitacora/bitacora.class.php",
+		"//10.40.3.215/app/op/apps/bitacora/bitacoraList.php",
+		"//10.40.3.215/app/op/apps/users/ldap.php",
+		"//10.40.3.215/app/op/apps/turnos/cierreTurno.php",
+		"//10.40.3.214/www/ITC/jobs/job_monitor.php",
+		"//10.40.3.215/app/op/web/debbuger.php",
+		"//10.40.3.215/app/op/lib/fx.msj.php",
+		"//10.40.3.215/app/op/web/js/js.js",
+		"//10.40.3.215/app/op/web/css/main.css",
+		"//10.40.3.215/app/op/lib/fx.usr.php",
+		"//10.40.3.215/app/op/lib/fx.xajax.php",
+		"//10.40.3.215/app/op/lib/fx.utl.php",
+		"//10.40.3.214/www/ITC/jobs/jobs.php",
+		"//10.40.3.215/app/op/plugins/adldap/adLDAP_3.1.php",
+		"//10.40.3.215/app/op/apps/hpsc/cierreTicket.php",
+		"//10.40.3.215/app/op/web/index.php",
+		"//10.40.3.215/app/op/model/main/usr.class.php",
+		"//10.40.3.215/app/op/apps/reps/rendimiento.php",
+		"//10.40.3.214/www/req/index.php",
+		"//10.40.3.215/app/op/apps/reps/rend_turno.php",
+		"//10.40.3.215/app/vraska/web/index.php",
+		"//10.40.3.215/app/op/apps/users/registro.php",
+		"//10.40.3.215/app/op/apps/turnos/apertura.php",
+		"//10.40.3.215/app/op/apps/turnos/aperturaTurno.php",
+		"/C/Users/jayniw/AppData/Local/Temp/Rar$DI00.524/README _Windows.txt",
+		"//10.40.3.215/app/op/apps/users/usrPlantilla.php",
+		"//10.40.3.215/app/op/apps/turnos/IndicadoresView.php",
+		"//10.40.3.215/app/op/apps/turnos/turnoIndicadorView.php",
+		"//10.40.3.215/app/op/apps/turnos/turnoIndicadorDetalle.php",
+		"//10.40.3.214/www/callcenter/monitor_device2.php",
+		"//10.40.3.214/www/callcenter/monitor_device.php",
+		"/C/Users/jayniw/AppData/Local/Temp/Rar$DI01.452/Readme.txt",
+		"/R/callcenter/monitor_device.php",
+		"//10.40.3.215/app/op/model/hpsc/personal.class.php",
+		"//10.40.3.215/app/op/apps/hpsc/personalView.php",
+		"//10.40.3.214/www/callcenter/monitor_sim_punt.php",
+		"//10.40.3.215/app/op/model/main/infoLinea.class.php",
+		"//10.40.3.215/app/op/apps/numeros/undocs.php",
+		"//10.40.3.215/app/op/model/numeros/undocs.class.php",
+		"//10.40.3.214/www/mon_fastprv/detalle.php",
+		"//10.40.3.214/www/callcenter/monitor_sim_puntualidad.php",
+		"//10.40.3.215/app/op/model/numeros/nums.class.php",
+		"//10.40.3.215/www/callcenter/monitor_sim_contactos.php",
+		"//10.40.3.215/www/callcenter/performance_contactos.php",
+		"//10.40.3.215/www/vraska/plugins/jquery4php/YepSua/Labs/RIA/jQuery4PHP/Plugins/jqFullCalendar/YsJQFullCalendar.php",
+		"//10.40.3.215/www/vraska/plugins/jquery4php/YepSua/Labs/RIA/jQuery4PHP/UI/YsUIDatepicker.php",
+		"/R/vraska/web/js/calendario/popcalendar.js",
+		"//10.40.3.141/www/transacciones/ticket_subsidio/index.php",
+		"//10.40.3.215/www/vraska/web/css/custom-theme/jquery-ui-1.9.0.custom.css",
+		"/R/vraska/web/js/jquery-1.8.2.min.js",
+		"//10.40.3.215/www/vraska/web/css/index.html",
+		"/R/vraska/app/tickets_detalle.template.php",
+		"/R/vraska/model/db.class.php",
+		"/R/vraska/vraska.sublime-project",
+		"/X/transacciones/ticket_subsidio/index.php",
+		"/C/Users/jayniw/Desktop/test.css",
+		"/C/Users/jayniw/Desktop/test.less",
+		"/R/vraska/lib/constantes.php",
+		"/R/vraska/web/css/test.less",
+		"/C/wamp/www/menu_vertical/menu/css/style.css",
+		"/C/wamp/www/menu_vertical/menu/index.html",
+		"/X/mon_prv/index.php",
+		"//10.40.3.141/www/callcenter/monitor_sim_puntualidad.php",
+		"//10.40.3.141/www/callcenter/monitor.php",
+		"/C/Users/jayniw/AppData/Roaming/Sublime Text 2/Packages/STProjectMaker/Templates/HTMLCanvas/_project_name_.sublime-project",
+		"/C/Users/jayniw/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/R/sorin/web/css/menu.css",
+		"/R/sorin/app/menu.template.php",
+		"/R/sorin/app/login.template.php",
+		"/R/sorin/app/user.template.php",
+		"/R/sorin/model/user.class.php",
+		"/R/sorin/model/menu.class.php",
+		"/V/www/mon_cortes/reconexiones.php",
+		"/R/sorin/model/db.class.php",
+		"/R/sorin/app/registro.template.php",
+		"/C/Users/jayniw/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
+		"//10.40.3.215/www/op/plugins/adldap/adLDAP_3.1.php",
+		"//10.40.3.215/www/op/plugins/adldap/adLDAP.php",
+		"/X/callcenter/monitor_sim_contactos.php",
+		"/X/callcenter/sims.php",
+		"/X/callcenter/recha_a_cerrado.php",
+		"/X/callcenter/performance_contactos.php",
+		"/X/callcenter/index.php",
+		"/X/callcenter/monitor_device.php",
+		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Controller/MenuController.php",
+		"/C/wamp/www/Symfony/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/layout.html.twig",
+		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Resources/views/Menu/menu.html.twig",
+		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Entity/User.php",
+		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Repository/MenuRepository.php",
+		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Entity/Menu.php",
+		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Resources/config/routing.yml",
+		"/C/wamp/www/Symfony/app/config/routing.yml",
+		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Controller/DefaultController.php",
+		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Resources/views/Security/login.html.twig",
+		"/C/wamp/www/Symfony/app/config/security.yml",
+		"/C/wamp/www/Symfony/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Security/login.html.twig",
+		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Resources/views/Default/index.html.twig",
+		"/C/wamp/www/Symfony/app/Resources/FOSUserBundle/views/Security/login.html.twig",
+		"/X/mon_ventas/postpago_pend.php",
+		"/C/wamp/www/Symfony/app/config/routing_dev.yml",
+		"/C/wamp/www/Symfony/app/config/config.yml",
+		"/C/wamp/www/Symfony/app/AppKernel.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"((",
+			"0,2",
+			"0,",
+			"(n",
+			"0|",
+			"(n",
+			"nvl((",
+			"(i",
+			"/i.",
+			"0/",
+			",0)+",
+			"nvl",
+			"+n",
+			"+h",
+			", a.",
+			"D",
+			"vsD",
+			"getIncidentesPend",
+			"ind28",
+			"28",
+			"ind28",
+			"getTurnoInd",
+			"xml",
+			" cantInd",
+			"getTurnoIndEsp",
+			"emamani",
+			"getTurnoInd",
+			"getDetalleTurno",
+			"device",
+			"servicio",
+			"ASSIGNMENTm1",
+			"grupo",
+			"getTurnoIndEsp",
+			"contctsm1",
+			"rendimientoFile",
+			"cierre",
+			"getArrayDebugger",
+			"getTurnoInd",
+			"dbp",
+			"turnos",
+			"hpsc_turno_indicador",
+			"sqlTurnoDiaEsp",
+			"contact",
+			"jduran",
+			"pmak",
+			"getEspecialistas",
+			"pmaker",
+			"getNoInd",
+			"getturno",
+			"$i",
+			"opit",
+			"1e62d0",
+			"3d94f6",
+			"demora",
+			"this->",
+			"tickets",
+			"Pmaker",
+			"pmaker",
+			"sqlPmaker",
+			"m",
+			"sqlVip",
+			"getInternos",
+			"cantInt",
+			"k",
+			"sqlInternos",
+			"j",
+			"call",
+			"In",
+			"in",
+			"and",
+			"where",
+			"from",
+			"select",
+			"Cli",
+			"/td",
+			"759E1A",
+			"acme",
+			"pendiente",
+			"trim",
+			"1377,",
+			"jduran",
+			"pack",
+			"window",
+			"close",
+			"class",
+			"SCENTER",
+			"nuevo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SymfonyCommander":
+	{
+		"height": 102.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 171.0,
+	"status_bar_visible": true
+}
