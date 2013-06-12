@@ -239,13 +239,84 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/AppKernel.php",
+			"settings":
+			{
+				"buffer_size": 1349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config/routing_dev.yml",
+			"settings":
+			{
+				"buffer_size": 370,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config/config.yml",
+			"settings":
+			{
+				"buffer_size": 1887,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/views/base.html.twig",
+			"settings":
+			{
+				"buffer_size": 386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{% extends '::base.html.twig' %}\n\n{% block stylesheets %}\n  {% stylesheets '@ThemesBootstrapBundle/Resources/public/css/bootstrap.css'\n                 '@ThemesBootstrapBundle/Resources/public/css/bootstrap-responsive.css' \n                   filter='cssrewrite, yui_css' output='css/main.css' %}\n    <link rel=\"stylesheet\" href=\"{{ asset_url }}\" type=\"text/css\">\n  {% endstylesheets %}\n{% endblock %}\n\n{% block body %}\n\n{% endblock %}\n\n{% block javascripts %}\n  {% javascripts '@ThemesBootstrapBundle/Resources/public/js/*' filter='yui_js' output='js/main.js' %}\n    <script src=\"{{ asset_url }}\"></script>\n  {% endjavascripts %}\n{% endblock %}\n\n\nC:\\Program Files\\PC Connectivity Solution\\;c:\\oracle\\ora92\\bin;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\DMIX;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\QuickTime\\QTSystem\\;C:\\wamp\\bin\\php\\php5.4.3\\;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Java\\jre7\\bin",
+			"file": "src/Themes/BootstrapBundle/Resources/views/layout.html.twig",
+			"file_size": 663,
+			"file_write_time": 130154612747019690,
+			"settings":
+			{
+				"buffer_size": 1034,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Themes/BootstrapBundle/Resources/views/Default/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 210.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"con",
+				"Package Control: Install Package"
+			],
+			[
+				"contr",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
 			[
 				"remo",
 				"Package Control: Remove Package"
@@ -256,14 +327,6 @@
 			],
 			[
 				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"con",
-				"Package Control: Install Package"
-			],
-			[
-				"contr",
 				"Package Control: Install Package"
 			],
 			[
@@ -317,13 +380,9 @@
 			[
 				"linter",
 				"SublimeLinter: Extract Annotations"
-			],
-			[
-				"Package Control: ",
-				"Package Control: List Packages"
 			]
 		],
-		"width": 626.0
+		"width": 424.0
 	},
 	"console":
 	{
@@ -340,6 +399,12 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/apps/mtg/app/config/parameters.yml",
+		"/C/wamp/apps/mtg/src/Themes/BootstrapBundle/Resources/public/js/jquery.js",
+		"/C/wamp/apps/mtg/src/Themes/BootstrapBundle/Resources/views/layout.html.twig",
+		"/C/Users/jduran/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/jduran/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/D/documentos/Downloads/Console2/console.xml",
 		"/C/wamp/apps/mtg/.gitignore",
 		"//10.40.3.215/app/op/apps/reps/prv.php",
 		"/C/wamp/bin/php/php5.4.3/php.ini",
@@ -461,13 +526,7 @@
 		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Controller/DefaultController.php",
 		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Resources/views/Security/login.html.twig",
 		"/C/wamp/www/Symfony/app/config/security.yml",
-		"/C/wamp/www/Symfony/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Security/login.html.twig",
-		"/C/wamp/www/Symfony/src/Itc/PortalBundle/Resources/views/Default/index.html.twig",
-		"/C/wamp/www/Symfony/app/Resources/FOSUserBundle/views/Security/login.html.twig",
-		"/X/mon_ventas/postpago_pend.php",
-		"/C/wamp/www/Symfony/app/config/routing_dev.yml",
-		"/C/wamp/www/Symfony/app/config/config.yml",
-		"/C/wamp/www/Symfony/app/AppKernel.php"
+		"/C/wamp/www/Symfony/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Security/login.html.twig"
 	],
 	"find":
 	{
@@ -485,6 +544,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"acme",
 			"((",
 			"0,2",
 			"0,",
@@ -590,8 +650,173 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/AppKernel.php",
+					"settings":
+					{
+						"buffer_size": 1349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								877,
+								877
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/config/routing_dev.yml",
+					"settings":
+					{
+						"buffer_size": 370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/config/config.yml",
+					"settings":
+					{
+						"buffer_size": 1887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								795,
+								795
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Resources/views/base.html.twig",
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								386,
+								386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/Themes/BootstrapBundle/Resources/views/layout.html.twig",
+					"settings":
+					{
+						"buffer_size": 1034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1034,
+								1004
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/Themes/BootstrapBundle/Resources/views/Default/index.html.twig",
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -655,6 +880,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 171.0,
+	"side_bar_width": 248.0,
 	"status_bar_visible": true
 }
