@@ -1,7 +1,7 @@
 themes_bootstrap:
     resource: "@ThemesBootstrapBundle/Controller/"
     type:     annotation
-    prefix:   /
+    prefix:   /theme
 
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
