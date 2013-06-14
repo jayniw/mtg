@@ -1,3 +1,8 @@
+mercadian_main:
+    resource: "@MercadianMainBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 themes_bootstrap:
     resource: "@ThemesBootstrapBundle/Controller/"
     type:     annotation
