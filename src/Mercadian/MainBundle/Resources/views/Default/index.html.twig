@@ -1,5 +1,43 @@
 {% extends 'ThemesBootstrapBundle::layout.html.twig' %}
 
 {% block body %}
-aqui se contruira el proyecto.....
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <!-- /header -->
+    <div class="navbar navbar-static-top">
+      <div class="navbar-inner">
+        <div class="container">
+        <!-- titulo de la barra de navagacion -->
+        <a href="" class="brand">Mercadian Project</a>
+        <!-- formulario de busqueda en la barra de navegacion -->
+        <form class="navbar-search pull-left" action="" method="POST">
+            <input type="text" class="search-query" placeholder="Buscar Producto" name="_formSearchText">
+            <img src="" alt="" class="icon-search img-circle">
+            <button type="submit" class="btn" name="_formSearch" value="buscar">Buscar</button>
+        </form>
+        <!-- para logueo -->
+        <form class="navbar-form pull-right" action="" method="POST">
+          <input type="text" class="span2 input-min" name="_formLoginUsr">
+          <input type="password" class="span2 input-small" name="_formLoginPass">
+          <button type="submit" class="btn btn-min" name="_formLogin" value="ingresar">Ingresar</button>
+        </form>
+        </div>
+      </div>
+    </div>
+    <!-- /header -->
+    <div class="row-fluid">
+      <div class="span4">
+        <!--Sidebar content-->
+        lateral
+      </div>
+      <div class="span8">
+        <!--Body content-->
+        principal
+      </div>
+    </div>
+  </div>
+</div>
+
 {% endblock %}
+
