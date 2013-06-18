@@ -4,30 +4,7 @@
 
 <div class="container-fluid">
   <div class="row-fluid">
-    <!-- /header -->
-    <div class="navbar navbar-static-top">
-      <div class="navbar-inner">
-        <div class="container">
-        <!-- titulo de la barra de navagacion -->
-        <a href="" class="brand">Mercadian Project</a>
-        <!-- formulario de busqueda en la barra de navegacion -->
-        <form class="navbar-search pull-left" action="" method="POST">
-            <input type="text" class="search-query" placeholder="Buscar Producto" name="_formSearchText">
-            <button type="submit" style="border: 0; background: transparent" name="_formSearch" value="buscar">
-              <img src="" class="icon-search" alt="submit" />
-            </button>
-            http://stackoverflow.com/questions/195632/how-to-change-an-input-button-image-using-css
-        </form>
-        <!-- para logueo -->
-        <form class="navbar-form pull-right" action="" method="POST">
-          <input type="text" class="span2 input-min" name="_formLoginUsr">
-          <input type="password" class="span2 input-small" name="_formLoginPass">
-          <button type="submit" class="btn btn-mini" name="_formLogin" value="ingresar">Ingresar</button>
-        </form>
-        </div>
-      </div>
-    </div>
-    <!-- /header -->
+    {% include 'MercadianMainBundle:Default:header.html.twig' %}
     <div class="row-fluid">
       <div class="span4">
         <!--Sidebar content-->

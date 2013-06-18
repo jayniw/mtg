@@ -1,0 +1,41 @@
+{% extends '::base.html.twig' %}
+
+{% block stylesheets %}
+  {% stylesheets '@ThemesBootstrapBundle/Resources/public/css/bootstrap.css'
+                 '@ThemesBootstrapBundle/Resources/public/css/bootstrap-responsive.css' 
+                   filter='cssrewrite, yui_css' output='css/main.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" type="text/css">
+  {% endstylesheets %}
+{% endblock %}
+
+{% block body %}
+  <div>
+      {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+          {{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
+          <a href="{{ path('fos_user_security_logout') }}">
+              {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+          </a>
+      {% else %}
+          <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+      {% endif %}
+  </div>
+
+  {% for type, messages in app.session.flashBag.all %}
+      {% for message in messages %}
+          <div class="{{ type }}">
+              {{ message|trans({}, 'FOSUserBundle') }}
+          </div>
+      {% endfor %}
+  {% endfor %}
+
+  <div>
+      {% block fos_user_content %}
+      {% endblock fos_user_content %}
+  </div>
+{% endblock %}
+
+{% block javascripts %}
+  {% javascripts '@ThemesBootstrapBundle/Resources/public/js/*' filter='yui_js' output='js/main.js' %}
+    <script src="{{ asset_url }}"></script>
+  {% endjavascripts %}
+{% endblock %}

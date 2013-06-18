@@ -1,0 +1,27 @@
+<div class="navbar navbar-static-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <!-- titulo de la barra de navagacion -->
+      <a href="" class="brand">Mercadian Project</a>
+      <!-- formulario de busqueda en la barra de navegacion -->
+      <form class="navbar-search pull-left" action="" method="POST">
+          <input type="text" class="search-query" placeholder="Buscar Producto" name="_formSearchText">
+          <button type="submit" style="border: 0; background: transparent" name="_formSearch" value="buscar">
+          </button>
+      </form>
+      <!-- para logueo -->
+      <div class="pull-right">
+         {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+            {{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
+            <a href="{{ path('fos_user_security_logout') }}">
+                {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+            </a>
+        {% else %}
+            <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+          {% block fos_user_content %}
+          {% endblock fos_user_content %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
